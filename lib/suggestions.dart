@@ -70,7 +70,7 @@ class _SuggestionsState extends State<Suggestions> {
     String timeStr = time.toString();
     timeStr = timeStr.substring(0, timeStr.length - 4);
 
-    return GestureDetector(
+    return GestureDetector( 
       child: GFCard(
         boxFit: BoxFit.cover,
         title: GFListTile(
