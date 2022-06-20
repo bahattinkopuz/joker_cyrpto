@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
     super.dispose();
   }
 
-  //Main UI - Main loop
+  //Main Page
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
